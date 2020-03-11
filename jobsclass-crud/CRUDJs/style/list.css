@@ -1,0 +1,168 @@
+/*
+
+This is a Tutoralzine Demo 
+Original tutorial: A simple AJAX website with jQuery
+Tutorial URL: http://tutorialzine.com/2009/09/simple-ajax-website-jquery/
+
+You are free to use the following demo code for any purpose you see fit.
+
+*/
+
+/* Page styles */
+
+body,
+h1,
+h2,
+h3,
+p,
+td,
+quote,
+small,
+form,
+input,
+ul,
+li,
+ol,
+label {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin-top: 20px;
+  color: #e8ebf0;
+  font-size: 13px;
+  background-color: #0a121a;
+  text-align: center;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#rounded {
+  width: 800px;
+  margin: 20px auto;
+  text-align: left;
+}
+
+.container {
+  background-color: #ffffff;
+  padding: 10px 20px 20px 20px;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: bold;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  font-weight: normal;
+  font-size: 20px;
+
+  color: #999999;
+}
+
+ul {
+  margin: 30px 0px;
+}
+
+li {
+  list-style: none;
+  display: block;
+  float: left;
+  width: 80px;
+}
+
+li a,
+li a:visited {
+  padding: 5px 10px;
+  text-align: center;
+  background-color: #0a191f;
+  cursor: pointer;
+  color: white;
+
+  -moz-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+
+  display: block;
+  margin-right: 10px;
+}
+
+li a:hover {
+  background-color: #220303;
+  text-decoration: none;
+  color: white;
+}
+
+#loading {
+  visibility: hidden;
+}
+
+.demo {
+  color: white;
+}
+
+#tableInfo {
+  background-color: #1f0b0b;
+}
+
+#tableInfo {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+#tableInfo td,
+#tableInfo th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#tableInfo tr:nth-child(even) {
+  background-color: #4b4242;
+}
+
+#tableInfo tr:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#tableInfo th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #414344;
+  color: white;
+}
+
+#cruMain {
+  display: none;
+}
+
+.button {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 15%;
+}
+
+.button2 {
+  background-color: #0a191f;
+}
+input[type=text]:focus {
+  width: 20%;
+}

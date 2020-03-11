@@ -1,0 +1,22 @@
+{
+  "id": 1,
+  "activity": "Test",
+  "relationalEntityId": 1,
+  "relationalEntityType": "k93ls93j",
+  "responsibleUserId": [{
+    "id": 1
+  }],
+  "creatorId": 1,
+  "activityTypeId": [{
+    "id": 1
+  }],
+  "activityStateId": [{
+    "id": 1
+  }],
+  "companyId": [{
+    "id": 2
+  }],
+  "createdDate": "2020-02-24",
+  "expireDate": "2021-02-26",
+  "lastUpdateDate": "2020-02-24"
+}

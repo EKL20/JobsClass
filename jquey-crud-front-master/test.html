@@ -1,0 +1,57 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Pruebas CRUD jQuery</title>
+  <link rel="stylesheet" type="text/css" href="demo.css" />
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+
+  <script type="text/javascript" src="script.js"></script>
+  <script type="text/javascript" src="lab.js"></script>
+</head>
+
+<body>
+
+  <div id="rounded">
+    <img src="img/top_bg.gif" alt="top" />
+    <div id="main" class="container">
+      <h1>Creando Crud pirata con Jquery</h1>
+        <input id="id" type="text" >
+        <input placeholder="Nombre" id="name" type="text">
+        <input placeholder="Apellido" id="lastname" type="text"></br></br>
+        <li><a id="agg" onclick="insertObject()">Registrar</a></li>
+        <li><a id="upd" onclick="updateObject()">Actualizar</a></li>
+
+      <div class="clear"></div>
+
+      <div id="pageContent">
+        <table id="table" class="table">
+        </table> </br>
+
+        <p id="p"></p>
+
+        <div id="contenidoArr">
+          <input id="x" type="number" placeholder="filas">
+          <input id="y" type="number" placeholder="columnas"></br>
+          <input type="submit" onclick="consArr()" value="crear">
+
+          <table id="mat"></table>
+
+          <div id="rounded">
+            <h1 id="win"></h1>
+            <div id="tableMain" class="containerTab">
+            </div>
+            <button id="rec" onclick="startTriqui()">Jugar de nuevo!</button>
+        </div>
+
+        </div>
+      </div>
+
+    </div>
+    <div class="clear"></div>
+  </div>
+</body>
+
+</html>
